@@ -1,0 +1,24 @@
+// general
+
+a {
+	text-decoration: none;
+	color: $body-font-color;
+	&:hover {
+	color: $primary-color;
+	}
+}
+// vertical align
+
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+//  Main Navigation
+.nav {
+	text-transform: uppercase;
+	font-size: em-calc(14);
+}
